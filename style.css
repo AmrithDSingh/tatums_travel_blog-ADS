@@ -16,8 +16,12 @@ article{
 header {
     color: hwb(0 25% 2%);
     background-image: url("https://c4.wallpaperflare.com/wallpaper/1009/918/359/pink-sky-france-paris-purple-sky-wallpaper-preview.jpg");
-background-size: cover;
+background-size: 500px 100px;
 }
 a{
     color: lightseagreen;
+}
+/* underlines the header*/
+header:hover{
+    text-decoration-line: underline;
 }

@@ -12,11 +12,18 @@ body{
 }
 article{
     background-image: linear-gradient(to right, rgb(33, 33, 109), rgb(243, 227, 228), rgb(222, 78, 78));
+padding: 3px;
+margin-bottom: 3px;
+box-shadow: 8px 9px 9px black;
 }
 header {
     color: hwb(0 25% 2%);
     background-image: url("https://c4.wallpaperflare.com/wallpaper/1009/918/359/pink-sky-france-paris-purple-sky-wallpaper-preview.jpg");
-background-size: 500px 100px;
+background-size: 900px 150px;
+border-radius: 0.75em;
+padding: 3px;
+margin-bottom: 7px;
+box-shadow: 8px 9px 9px black;
 }
 a{
     color: lightseagreen;
@@ -24,4 +31,14 @@ a{
 /* underlines the header*/
 header:hover{
     text-decoration-line: underline;
+}
+img{
+    display: block;
+    height: 20%;
+    border: 5px groove silver;
+    border-radius: 0.75em;
+
+}
+.subheading{
+    border-bottom: solid 5px black;
 }
